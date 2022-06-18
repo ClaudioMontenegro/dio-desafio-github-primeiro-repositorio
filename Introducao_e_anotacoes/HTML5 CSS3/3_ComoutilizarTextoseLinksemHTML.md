@@ -3,7 +3,7 @@
 
 ![](https://imgur.com/iCMdTxu.jpg)
 
-* **< p >** representa um parágrafo, porém ele mais do que textos, podendo adicionar imagens, códigos, vídeos, e vários outros tipos de conteúdos. 
+* **< p >** representa um parágrafo, porém ele é mais do que simples textos, podendo adicionar imagens, códigos, vídeos, e vários outros tipos de conteúdos. 
 
 ![](https://imgur.com/PeOqm9m.jpg)
 

@@ -1,6 +1,6 @@
 # Entendendo Semântica 
 
-Durante muitos anos, o elemento *div* era o principal. Era complexos, pois era necessário procurar significado para os elementos de outras formas, como por exemplo, com *classes*
+Durante muitos anos, o elemento *div* era o principal. Era complexo, pois necessitava de busca de significado para os elementos de outras formas, como por exemplo, com *classes*
 
 #### Mudou com o HTML5
 
