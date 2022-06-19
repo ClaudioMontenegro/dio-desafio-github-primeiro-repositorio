@@ -40,3 +40,5 @@ Passos importantes:
   ![](https://imgur.com/uEuWags.jpg)
   
   `Os itens se alocaram de forma horizontal, respeitando a margem, porém, se continuarmos adicionando itens, eles irão vazar da borda.` 
+  
+  
