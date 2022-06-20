@@ -1,0 +1,80 @@
+# Flex basis
+
+## Prática
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - flex basis</title>
+
+    <style>
+        .flex-container{
+            max-width: 500px;
+            border: 1px solid black;
+            display: flex;
+            
+        }
+
+        .items{
+            background-color: aqua;
+            color: blueviolet;
+            text-align: center;
+            margin: 5px;
+        }
+
+        .bauto{
+            flex-basis:auto
+        }
+        
+        .fg-1{
+            flex-grow: 1;
+        }
+
+        .fg-2{
+            flex-grow: 2;
+        }
+
+        .b-0{
+            flex-basis: 0;
+        }
+
+        .w100{
+            flex-basis: 100px;
+        }
+    </style>
+    </head>
+    <body>
+
+    <h1>Flex basis</h1>
+    
+    <p>auto</p>
+    <div class="flex-container">
+        <div class="items bauto fg-1">AAAAAA</div>
+        <div class="items bauto fg-1">CCCCCCCCC</div>
+        <div class="items bauto fg-1">T</div>
+        <div class="items bauto fg-2">ADC</div>
+    </div>
+
+    <p>0 (zero)</p>
+    <div class="flex-container">
+        <div class="items b-0 fg-1">AAAAAA</div>
+        <div class="items b-0 fg-1">CCCCCCCCC</div>
+        <div class="items b-0 fg-1">T</div>
+        <div class="items b-0 fg-2">ADDDC</div>
+    </div>
+
+    <p>basis + width</p>
+    <div class="flex-container">
+        <div class="items w100 fg-2">AAAAAA</div>
+        <div class="items w100 fg-2">CCCC</div>
+        <div class="items w100 fg-2">T</div>
+        <div class="items w100 fg-2">ADDDC</div>
+    </div>
+
+    </body>
+    </html>
+
+![](https://imgur.com/AAgthh0.jpg)
