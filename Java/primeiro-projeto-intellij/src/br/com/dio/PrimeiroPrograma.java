@@ -11,5 +11,20 @@ public class PrimeiroPrograma {
         /*int a = 5;
         int b = 10;
         System.out.println("Hello World! " + (a+b));*/
+
+        Livro livro1 = new Livro("O problema dos 3 corpos", 300);
+        System.out.println(livro1);
+    }
+}
+
+
+class Livro {
+    private String nome;
+    private Integer numPaginas;
+
+
+    public Livro(String nome, Integer numPaginas) {
+        this.nome = nome;
+        this.numPaginas = numPaginas;
     }
 }
